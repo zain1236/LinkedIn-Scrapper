@@ -42,7 +42,7 @@ app.post("/linkedIn", (req, res) => {
   var dateFilter = req.body.time;
 
   puppeteer
-    .launch({ headless: true })
+    .launch({ headless: false })
     .then(async (browser) => {
       let page = await browser.newPage();
       page.setViewport({ width: 1366, height: 768 });
