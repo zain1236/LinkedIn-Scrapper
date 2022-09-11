@@ -2,7 +2,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 import { PostAction } from "./Posts";
 
-const api = `${process.env.REACT_APP_API}/py/script`;
+const api = `${process.env.REACT_APP_API}/linkedIn`;
 export const fetchPosts = (data, navigate) => {
   return async (dispatch) => {
     console.log(data);

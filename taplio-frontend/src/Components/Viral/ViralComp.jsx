@@ -68,7 +68,7 @@ const ViralComp = () => {
                 -- Select --{" "}
               </option>
 
-              <option value={"24"}>24 Hours</option>
+              <option value={"24H"}>24 Hours</option>
               <option value={"week"}>Week</option>
               <option value={"month"}>Month</option>
             </NativeSelect>
